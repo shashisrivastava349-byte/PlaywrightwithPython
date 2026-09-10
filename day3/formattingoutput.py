@@ -5,7 +5,7 @@
 name,age,sal="Shashi",34,500.60
 
 #Approach 1
-print(name,age,sal)
+# print(name,age,sal)
 
 #Approach 2
 # print("Name is :" +name)  #valid
