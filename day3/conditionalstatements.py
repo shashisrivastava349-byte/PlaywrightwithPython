@@ -92,18 +92,72 @@
 #     print("Invalid Week Number")
 
 #Nested if else condition
-number=int(input("Enter number :"))
-print("Entered Number is :",number)
-if number%2==0:
-    if number%3==0:
-        print("Divisible by both 2 and 3")
-    else:
-        print("Divisible by 2 but not 3")
-else:
-    if number%3==0:
-        print("Divisible by 3 but not 2")
-    else:
-        print("Not divisible by 2 and 3")
+# number=int(input("Enter number :"))
+# print("Entered Number is :",number)
+# if number%2==0:
+#     if number%3==0:
+#         print("Divisible by both 2 and 3")
+#     else:
+#         print("Divisible by 2 but not 3")
+# else:
+#     if number%3==0:
+#         print("Divisible by 3 but not 2")
+#     else:
+#         print("Not divisible by 2 and 3")
+
+#Short hand if
+# a,b=20,10
+#
+# if a>b:
+#     print("a is greater than b")
+#
+# if a>b:print("a is greater than b")
+#
+# #Short hand if else (Ternary operator)
+# a,b=20,10
+#
+# if a>b:
+#     print("a is greater than b")
+# else:
+#     print("b is greater than a")
+#
+# print("a is greater than b") if a>b else print("b is greater than a")
+
+#AND (Logical operator) with if elif else
+# a=20
+# b=10
+# c=30
+# if a>b and a>c:
+#     print("a is largest", a)
+# elif b>c and b>a:
+#     print("b is largest", b)
+# else:
+#     print("c is largest", c)
+
+#pass
+a=10
+b=20
+if a>b:
+    pass
+print("a is largest", a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
