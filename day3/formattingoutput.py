@@ -21,4 +21,12 @@ name,age,sal="Shashi",34,500.60
 # print("Age: %d Name: %s Salary: %g" %(age,name,sal))
 
 #Approach 4 {} using format() function
-print("Name : {} Age : {} salary: {}".format(name,age,sal))
+# print("Name : {} Age : {} salary: {}".format(name,age,sal))
+
+#Approach 5 {} indexing using format() function
+# print("Name:{0} Age:{1} salary:{2}".format(name,age,sal))
+# print(" Age:{1} Name:{0} salary:{2}".format(name,age,sal))
+
+print("Welcome to \n Python") # \n move to next line
+
+print("Welcome to \t Python") #\t tab space
